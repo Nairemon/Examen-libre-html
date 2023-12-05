@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="login.css" />
+    <script
+      src="https://kit.fontawesome.com/7e5b2d153f.js"
+      crossorigin="anonymous"
+      
+    ></script>
+    <script defer src="index.js"></script>
+  </head>
+  <body>
+    <header class="header">
+
+      <nav class="nav">
+        
+        <a href="index.html" class="logo nav-link">Nainai</a>
+        <ul style="list-style: none;">
+
+            <li class="nav-menu-item">
+              <ul class="nav-menu">
+
+                <li class="nav-menu-item dropdown">
+                  <a href="tienda.html" class="nav-menu-link nav-link">Productos</a>
+                  <div class="dropdown-content">
+                    <a href="#">Peluches      </a>
+                    <a href="#">Papelería  </a>
+                    <a href="#">Juguetes</a>
+                    <a href="#">Hogar</a>
+                  </div>
+                </li>
+
+        <div class="search-container">
+            <form action="#" method="get">
+              <input type="text" placeholder="Buscar..." name="search">
+              <button type="submit">Buscar</button>
+            </form>
+          </div>
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+    </li>
+    
+
+          <li class="nav-menu-item">
+            <a href="index.html" class="nav-menu-link nav-link">Inicio</a>
+      </li>
+          </li>
+
+          <li class="nav-menu-item dropdown">
+            <a href="tienda.html" class="nav-menu-link nav-link">Tienda</a>
+            <div class="dropdown-content">
+              <a href="#">Destacados</a>
+              <a href="#">Nuevos</a>
+              <a href="#">Ofertas</a>
+            </div>
+          </li>
+
+          <li class="nav-menu-item">
+            <a href="tienda.html" class="nav-menu-link nav-link">Categorias</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="contacto.html" class="nav-menu-link nav-link" >Contacto</a
+            >
+          </li>
+
+          <li class="nav-menu-item dropdown">
+            <a href="#" class="nav-menu-link nav-link">Login</a>
+            <div class="dropdown-content">
+              <div class="login-container">
+                <div class="login-header">
+                  <h2>Iniciar Sesión</h2>
+                </div>
+                <div class="login-form">
+                  <div class="form-group">
+                    <label for="username">Usuario:</label>
+                    <input type="text" id="username" name="username" placeholder="Ingresa tu usuario">
+                  </div>
+                  <div class="form-group">
+                    <label for="password">Contraseña:</label>
+                    <input type="password" id="password" name="password" placeholder="Ingresa tu contraseña">
+                  </div>
+                  <button class="login-btn">Iniciar Sesión</button>
+                </div>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+    </header>
+   
+
+
+    
+  </body>
+</html>
